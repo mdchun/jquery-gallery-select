@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>selecter gallery demo</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <script src="../assets/lib/jquery.min.js"></script>
+    <link rel="stylesheet" href="../src/css/selecter.css">
+    <script src="../src/js/selecter.js"></script>
+</head>
+<body>
+        <select class="custom">
+            <option value="null">请选择</option>
+            <option value="1">1111111</option>
+            <option value="1">2222</option>
+            <option value="1">333333333333333</option>
+            <option value="1">4444444444444</option>
+        </select>
+    <script>
+        $(function(){
+            $('select.custom').customSelect();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+span.customSelect {
+    font-size:12px;
+    background-color: #fff;
+    color:#7c7c7c;
+    padding:5px 7px;
+    border:1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+span.customSelect.changed {
+    background-color: #fff;
+}
+.customSelectInner {
+    background:url(../../images/bg-icon.gif) no-repeat center right;
+}
+option{
+    opacity: 0;
+}
